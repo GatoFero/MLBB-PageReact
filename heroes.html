@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7be1e22192.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <title>Mobile Legends: Bang Bang - Heroes</title>
+</head>
+<body>
+    <header>
+        <div class="navHeader">
+            <div class="navLogo">
+                <img src="assets/img/logos/moonton.png" alt="Empresa">
+                <img src="assets/img/logos/mlbb.png" class="mlbb" alt="Logo">       
+            </div>
+            <div class="navMenu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="juego.html">Juego</a></li>
+                        <li><a href="heroes.html">Heroes</a></li>
+                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="comunidad.html">Comunidad</a></li>
+                        <li><a href="esports.html">eSports</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="botonesNav">
+                <a href="https://discord.com/invite/mobilelegendsbangbang">
+                    <i class="fa-brands fa-discord fa-2xl"></i>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.mobile.legends&pli=1">
+                    <i class="fa-brands fa-google-play fa-2xl"></i>
+                </a>
+            </div>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube fa-lg"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-share fa-lg"></i>
+                </a>
+            </div>
+
+            <!-- Menu Mobile -->
+            <div class="menuMobile" id="menu">
+                <i onclick="openNav()" class="fa-solid fa-bars fa-xl" ></i>
+            </div>
+            <div class="overlayMobile" id="mobile-menu">
+                    <i onclick="closeNav()" class="fa-regular fa-circle-xmark fa-2xl close" id="close"></i>
+                <div class="cont-overlayMobile">
+                    <div class="navMenu-mobile">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="juego.html">Juego</a></li>
+                                <li><a href="heroes.html">Heroes</a></li>
+                                <li><a href="noticias.html">Noticias</a></li>
+                                <li><a href="historia.html">Historia</a></li>
+                                <li><a href="comunidad.html">Comunidad</a></li>
+                                <li><a href="esports.html">eSports</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="botonesNav-mobile">
+                        <a href="https://discord.com/invite/mobilelegendsbangbang">
+                            <i class="fa-brands fa-discord fa-2xl"></i>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.mobile.legends&pli=1">
+                            <i class="fa-brands fa-google-play fa-2xl"></i>
+                        </a>
+                    </div>
+                    <div class="redes-mobile">
+                        <a href="#">
+                            <i class="fa-brands fa-instagram fa-lg"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook fa-lg"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube fa-lg"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-share fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<main>
+        <section>
+            <div class="titulo">
+                <h3 class="relleno">DESCUBRE A</h3>
+                <h1>LOS HEROES</h1>
+                <p>Conoce mas de los 20 heroes con mecanicas unicas y diversas maneras de jugarlos en Mobile Legends.</p>
+            </div>
+            <div class="botonesRoles">
+                <label>
+                <p>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="" type="search" id="buscarHeroe" placeholder="Buscar">
+                </p>
+                </label>
+                
+                <label><p class="rol" category="all">Todos</p></label>
+                <label><p class="rol" category="soporte">Soporte</p></label>
+                <label><p class="rol" category="mago">Mago</p></label>
+                <label><p class="rol" category="asesino">Asesino</p></label>
+                <label><p class="rol" category="tirador">Tirador</p></label>
+                <label><p class="rol" category="tanque">Tanque</p></label>
+                <label><p class="rol" category="combatiente">Combatiente</p></label>
+            </div>
+            <div class="allHeroes">
+                <div class="cardHero" category="combatiente" hero="aldous" numHero="0">
+                    <a href="hero.html">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/aldous.png" alt="aldous">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Aldous</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardHero" category="mago" hero="alice" numHero="1">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/alice.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Alice</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardHero" category="combatiente" hero="alpha" numHero="2">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/alpha.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Alpha</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>  
+                </div>
+                <div class="cardHero" category="combatiente" hero="alucard" numHero="3">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/alucard.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Alucard</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>  
+                </div>
+                <div class="cardHero" category="soporte" hero="angela" numHero="4">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/angela.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Angela</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardHero" category="combatiente" hero="argos" numHero="5">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/argos.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Argos</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardHero" category="tanque" hero="atlas" numHero="6">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/atlas.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Atlas</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a> 
+                </div>
+                <div class="cardHero" category="mago" hero="aurora" numHero="7">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/aurora.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Aurora</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardHero" category="combatiente" hero="badang" numHero="8">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/badang.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Badang</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardHero" category="combatiente" hero="balmond" numHero="9">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/balmond.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Balmond</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>  
+                </div>
+                <div class="cardHero" category="combatiente" hero="barats" numHero="10">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/barats.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Barats</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardHero" category="tanque" hero="baxia" numHero="11">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/baxia.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Baxia</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a> 
+                </div>
+                <div class="cardHero" category="tirador" hero="beatrix" numHero="12">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/beatrix.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Beatrix</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a> 
+                </div>
+                <div class="cardHero" category="asesino" hero="benedeta" numHero="13">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/benedeta.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Benedeta</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardHero" category="tirador" hero="brody" numHero="14">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/brody.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Brody</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a> 
+                </div>
+                <div class="cardHero" category="soporte" hero="carmila" numHero="15">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/carmila.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Carmila</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a> 
+                </div>
+                <div class="cardHero" category="mago" hero="cecilion" numHero="16">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/cecilion.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Cecilion</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a> 
+                </div>
+                <div class="cardHero" category="mago" hero="chang" numHero="17">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/change.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Chang'e</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardHero" category="tirador" hero="claude" numHero="18">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/claude.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Claude</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a>   
+                </div>
+                <div class="cardHero" category="tirador" hero="clint" numHero="19">
+                    <a href="hero.php">
+                        <div class="iconHero">
+                            <img src="assets/img/iconHero/clint.png" alt="">
+                        </div>
+                        <div class="nomHero">
+                            <h2>Clint</h2>
+                        </div>
+                        <div class="efectoIcon">
+                            <span></span>
+                        </div>
+                    </a> 
+                </div>  
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="redes">
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-youtube fa-lg"></i>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-share fa-lg"></i>
+            </a>
+        </div>
+        <p>2024 Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

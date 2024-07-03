@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7be1e22192.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <title>M - Heroes</title>
+</head>
+<body>
+    <header>
+        <div class="navHeader">
+            <div class="navLogo">
+                <img src="assets/img/logos/moonton.png" alt="Empresa">
+                <img src="assets/img/logos/mlbb.png" class="mlbb" alt="Logo">       
+            </div>
+            <div class="navMenu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="juego.html">Juego</a></li>
+                        <li><a href="heroes.html">Heroes</a></li>
+                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="comunidad.html">Comunidad</a></li>
+                        <li><a href="esports.html">eSports</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="botonesNav">
+                <a href="https://discord.com/invite/mobilelegendsbangbang">
+                    <i class="fa-brands fa-discord fa-2xl"></i>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.mobile.legends&pli=1">
+                    <i class="fa-brands fa-google-play fa-2xl"></i>
+                </a>
+            </div>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube fa-lg"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-share fa-lg"></i>
+                </a>
+            </div>
+
+            <!-- Menu Mobile -->
+            <div class="menuMobile" id="menu">
+                <i onclick="openNav()" class="fa-solid fa-bars fa-xl" ></i>
+            </div>
+            <div class="overlayMobile" id="mobile-menu">
+                    <i onclick="closeNav()" class="fa-regular fa-circle-xmark fa-2xl close" id="close"></i>
+                <div class="cont-overlayMobile">
+                    <div class="navMenu-mobile">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="juego.html">Juego</a></li>
+                                <li><a href="heroes.html">Heroes</a></li>
+                                <li><a href="noticias.html">Noticias</a></li>
+                                <li><a href="historia.html">Historia</a></li>
+                                <li><a href="comunidad.html">Comunidad</a></li>
+                                <li><a href="esports.html">eSports</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="botonesNav-mobile">
+                        <a href="https://discord.com/invite/mobilelegendsbangbang">
+                            <i class="fa-brands fa-discord fa-2xl"></i>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.mobile.legends&pli=1">
+                            <i class="fa-brands fa-google-play fa-2xl"></i>
+                        </a>
+                    </div>
+                    <div class="redes-mobile">
+                        <a href="#">
+                            <i class="fa-brands fa-instagram fa-lg"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook fa-lg"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube fa-lg"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-share fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<main>
+    <section class="cont-carruselInicio overlay-bottom">
+        <div class="flechas">
+            <a id="flechaIzq2"><i class="fa-solid fa-chevron-left fa-2xl"></i></a>
+            <a id="flechaDere2"><i class="fa-solid fa-chevron-right fa-2xl"></i></a>
+        </div>
+        <div class="carruselInicio">
+            <div class="carrusel1">
+                <div class="contenidoMlbb">
+                        <img src="assets/img/logos/logomlbb2.png" alt="">
+                        <h1 class="sombra">DEMUESTRA TUS HABILIDADES EN MOBILE LEGENDS</h1>
+                        <div class="botonJugar">
+                            <a href="#" class="jugarAhora">JUEGA AHORA
+                                <span></span>
+                                <span></span>   
+                            </a>
+                        </div>
+                </div>
+            </div>
+            <div class="carrusel2">
+                
+            </div>
+            <div class="carrusel3">
+                
+            </div>
+            <div class="carrusel4">
+                
+            </div>
+        </div>
+            
+    </section>
+        <div class="titulo">
+            <h3>DIVIERTETE</h3>
+            <h1>CON CICI</h1>
+            <p>Nueva Combatiente Cici - "Performer Alegre". Cici es resistente en las batallas y usa su rapidez para kitear a sus oponentes, infligiéndoles un daño constante. ¡Conoce a esta nueva combatiente y sus habilidades en este vídeo y aprende a usarla!</p>
+            <div class="ifrms">
+                <div class="fondoIfrm">
+                    <iframe width="530" height="298" src="https://www.youtube.com/embed/Pe23DHOvX3s?si=aTzMHAVXv9HaU0Ry" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="fondoIfrm">
+                    <iframe width="530" height="298" src="https://www.youtube.com/embed/SzEzfrZVa2A?si=8CfU9GUcwJ_Dky4e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>   
+            </div>
+        </div>
+
+        <!-- Seccion de Heroes Favoritos -->
+
+        <section>
+            <div class="titulo">
+                <h3>ELIGE TU</h3>
+                <h1>FAVORITO</h1>
+                <p>Sumergete en este emocionante mundo, descubre héroes que se adaptan perfectamente a tu estilo de juego. Mira este Top 5 de Heroes favoritos.</p>
+            </div>
+            <div class="cont-carruselFav">
+                
+
+                <input type="radio" name="cont-carruselFav" id="cont-carruselFavOne" checked>
+                <input type="radio" name="cont-carruselFav" id="cont-carruselFavTwo">
+                <input type="radio" name="cont-carruselFav" id="cont-carruselFavThree">
+                <input type="radio" name="cont-carruselFav" id="cont-carruselFavFour">
+                <input type="radio" name="cont-carruselFav" id="cont-carruselFavFive">
+                
+                <div class="flechas">
+                    <a id="flechaIzq"><i class="fa-solid fa-chevron-left fa-2xl"></i></a>
+                    <a id="flechaDere"><i class="fa-solid fa-chevron-right fa-2xl"></i></a>
+                </div>
+
+                <div class="botonesFav">
+                    <label for="cont-carruselFavOne"></label>
+                    <label for="cont-carruselFavTwo"></label>
+                    <label for="cont-carruselFavThree"></label>
+                    <label for="cont-carruselFavFour"></label>
+                    <label for="cont-carruselFavFive"></label>
+                </div>
+
+                <div class="carruselFav overlay-top overlay-bottom">
+                    <div class="seccionCarrusel ">
+                        <div class="elementosFav">
+                            <div class="fotoFav">
+                                <img src="assets/img/HeroesFav/balmond.png" alt="Balmond">
+                            </div>
+                            <div class="textoFav">
+                                <div class="nombreFav">
+                                    <h1><i class="fa-solid fa-star fa-sm"></i> Balmond</h1>
+                                    <p>Combatiente/Jungla</p>
+                                </div>
+                                <div class="botonTexFav">
+                                    <h2>Balmond es un guerrero feroz con un hacha colosal y una sed implacable de batalla. Su presencia desata el caos, dejando una estela de destrucción. ¿Te atreves a liderar con la ferocidad indomable de Balmond?</h2>
+                                    <div class="botonVerMas">
+                                        <a href="#" >Ver Más</a>
+                                    </div>
+                                </div>            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seccionCarrusel">
+                        <div class="elementosFav">
+                            <div class="fotoFav">
+                                <img src="assets/img/HeroesFav/kagura.png" alt="Kagura">
+                            </div>
+                            <div class="textoFav">
+                                <div class="nombreFav">
+                                    <h1><i class="fa-solid fa-star fa-sm"></i> Kagura</h1>
+                                    <p>Mago/Mid Line</p>
+                                </div>
+                                <div class="botonTexFav">
+                                    <h2>Kagura en Mobile Legends es una hechicera maestra del control del clima. Con su sombrilla, desata tormentas y se teletransporta, confundiendo a sus enemigos. ¿Te atreves a dominar la magia con Kagura?</h2>
+                                    <div class="botonVerMas">
+                                        <a href="#" >Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seccionCarrusel">
+                        <div class="elementosFav">
+                            <div class="fotoFav">
+                                <img src="assets/img/HeroesFav/claude.png" alt="Claude">
+                            </div>
+                            <div class="textoFav">
+                                <div class="nombreFav">
+                                    <h1><i class="fa-solid fa-star fa-sm"></i> Claude</h1>
+                                    <p>Tirador/Gold Line</p>
+                                </div>
+                                <div class="botonTexFav">
+                                    <h2>Embárcate en la velocidad y astucia. Este hábil ladrón utiliza sus habilidades para robar riquezas y evadir a sus perseguidores. Armado con un par de pistolas gemelas, dispara rápidamente a sus enemigos y deja una estela de caos a su paso.</h2>
+                                    <div class="botonVerMas">
+                                        <a href="#" >Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seccionCarrusel">
+                        <div class="elementosFav">
+                            <div class="fotoFav">
+                                <img src="assets/img/HeroesFav/karina.png" alt="Karina">
+                            </div>
+                            <div class="textoFav">
+                                <div class="nombreFav">
+                                    <h1><i class="fa-solid fa-star fa-sm"></i> Karina</h1>
+                                    <p>Asesino/Jungla</p>
+                                </div>
+                                <div class="botonTexFav">
+                                    <h2>Adéntrate en las sombras con Karina. Esta asesina letal acecha en la oscuridad, listo para eliminar a sus presas con precisión letal. Armada con sus dagas mortales, Karina se desliza entre los enemigos con gracia y velocidad.</h2>
+                                    <div class="botonVerMas">
+                                        <a href="#" >Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seccionCarrusel">
+                        <div class="elementosFav">
+                            <div class="fotoFav">
+                                <img src="assets/img/HeroesFav/dyrroth.png" alt="Dyrroth">
+                            </div>
+                            <div class="textoFav">
+                                <div class="nombreFav">
+                                    <h1><i class="fa-solid fa-star fa-sm"></i> Dyrroth</h1>
+                                    <p>Combatiente/Jungla</p>
+                                </div>
+                                <div class="botonTexFav">
+                                    <h2>Embárcate en la furia desatada. Este guerrero sanguinario empuña una gran espada oscura, desatando ataques letales en el campo de batalla. Con su sed de combate insaciable, Dyrroth se lanza hacia sus enemigos con fuerza descomunal.</h2>
+                                    <div class="botonVerMas">
+                                        <a href="#" >Ver Más</a>
+                                    </div>
+                                </div>           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion de Roles 6 Heros -->
+
+        <section>
+            <div class="titulo">
+                <h3>ESCOGE TU</h3>
+                <h1>POSICIÓN</h1>
+            </div>
+            <div class="cont-Roles">
+
+                <input type="radio" name="contRoles" id="contRolesOne">
+                <input type="radio" name="contRoles" id="contRolesTwo">
+                <input type="radio" name="contRoles" id="contRolesThree" checked>
+                <input type="radio" name="contRoles" id="contRolesFour">
+                <input type="radio" name="contRoles" id="contRolesFive">
+                <input type="radio" name="contRoles" id="contRolesSix">
+
+                <div class="botonesRoles">
+                    <label for="contRolesOne"><p>Soporte</p></label>
+                    <label for="contRolesTwo"><p>Asesino</p></label>
+                    <label for="contRolesThree"><p>Tirador</p></label>
+                    <label for="contRolesFour"><p>Tanque</p></label>
+                    <label for="contRolesFive"><p>Combatiente</p></label>
+                    <label for="contRolesSix"><p>Mago</p></label>
+                </div>
+                <div class="scrollRoles">
+                    <div class="seccionRoles">
+                        <div class="elementosRoles">
+                            <div class="cardRoles fondoSuport">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/suports/seccAngela.png" alt="Angela">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Angela</h1>
+                                    <p>Con su imponente ancla gigante, hábil para enganchar a sus enemigos y liderar con valentía en la batalla. Su resistencia y control son clave para proteger a su equipo.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoSuport">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/suports/seccDiguie.png" alt="Digguie">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Digguie</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoSuport">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/suports/seccRafaela.png" alt="Rafaela">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Rafaela</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoSuport">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/suports/seccEstes.png" alt="Estes">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Estes</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoSuport">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/suports/seccKaja.png" alt="Kaja">
+                                    
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>kaja</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoSuport">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/suports/seccFaramis.png" alt="Faramis">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Faramis</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="botonVerRol">
+                                <a href="#">Ver Rol</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seccionRoles">
+                        <div class="elementosRoles">
+                            <div class="cardRoles fondoAsesino">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/asesinos/seccFanny.png" alt="Fanny">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Fanny</h1>
+                                    <p>Con su imponente ancla gigante, hábil para enganchar a sus enemigos y liderar con valentía en la batalla. Su resistencia y control son clave para proteger a su equipo.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoAsesino">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/asesinos/seccHaya.png" alt="Hayabusa">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Hayabusa</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoAsesino">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/asesinos/seccGusion.png" alt="Gusion">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Gusion</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoAsesino">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/asesinos/seccHel.png" alt="Helcurt">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Helcurt</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoAsesino">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/asesinos/seccLance.png" alt="Lancelot">
+                                    
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Lancelot</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoAsesino">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/asesinos/seccKarina.png" alt="Karina">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Karina</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="botonVerRol">
+                                <a href="#">Ver Rol</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seccionRoles">
+                        <div class="elementosRoles">
+                            <div class="cardRoles fondoTirador">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tiradores/seccClaude.png" alt="Claude">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Claude</h1>
+                                    <p>Con su imponente ancla gigante, hábil para enganchar a sus enemigos y liderar con valentía en la batalla. Su resistencia y control son clave para proteger a su equipo.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoTirador">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tiradores/seccBruno.png" alt="Bruno">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Bruno</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoTirador">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tiradores/seccKarrie.png" alt="Karrie">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Karrie</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoTirador">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tiradores/seccGranger.png" alt="Granger">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Granger</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoTirador">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tiradores/seccClint.png" alt="Clint">
+                                    
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Clint</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoTirador">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tiradores/seccKimmy.png" alt="Kimmy">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Kimmy</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="botonVerRol">
+                                <a href="#">Ver Rol</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seccionRoles">
+                        <div class="elementosRoles">
+                            <div class="cardRoles fondoTank">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tanques/seccFranco.png" alt="Franco">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Franco</h1>
+                                    <p>Con su imponente ancla gigante, hábil para enganchar a sus enemigos y liderar con valentía en la batalla. Su resistencia y control son clave para proteger a su equipo.</p>
+                                </div>
+                                
+                            </div>
+                            <div class="cardRoles fondoTank">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tanques/seccAkai.png" alt="Akai">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Akai</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoTank">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tanques/seccGatot.png" alt="Gatotkaka">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Gatotkaka</h1>
+                                    <p>Como una tormenta de acero, Gatotkaca con sus habilidades en el combate cuerpo a cuerpo son incomparables, convirtiéndolo en un maestro de la defensa.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoTank">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tanques/seccAtlas.png" alt="Atlas">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Atlas</h1>
+                                    <p>En el epicentro del caos, Atlas emerge como un coloso indomable, marcha hacia la victoria con determinación, dejando una estela de destrucción a su paso.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoTank">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tanques/seccKhufra.png" alt="Khufra">
+                                    
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Khufra</h1>
+                                    <p>Como una sombra en el campo de batalla, Khufra se desliza con habilidad y determinación. Su resistencia inquebrantable y tácticas lo convierten en un rival temible.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoTank">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/tanques/seccBelerick.png" alt="Belerick">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Belerick</h1>
+                                    <p>Entre las hojas y raíces, Belerick se yergue como el guardián de la naturaleza, decidido a preservar la armonía en el campo de batalla y defender a sus compañeros.</p>
+                                </div>
+                            </div>
+                            <div class="botonVerRol">
+                                <a href="#">Ver Rol</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seccionRoles">
+                        <div class="elementosRoles">
+                            <div class="cardRoles fondoCombatiente">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/combatientes/seccChou.png" alt="Chou">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Chou</h1>
+                                    <p>Con su imponente ancla gigante, hábil para enganchar a sus enemigos y liderar con valentía en la batalla. Su resistencia y control son clave para proteger a su equipo.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoCombatiente">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/combatientes/seccAlucard.png" alt="Alucard">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Alucard</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoCombatiente">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/combatientes/seccLeo.png" alt="Leomord">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Leomord</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoCombatiente">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/combatientes/seccDyrroth.png" alt="Dyrroth">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Dyrroth</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoCombatiente">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/combatientes/seccArgos.png" alt="Argos">
+                                    
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Argos</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoCombatiente">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/combatientes/seccAldous.png" alt="Aldous">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Aldous</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="botonVerRol">
+                                <a href="#">Ver Rol</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seccionRoles">
+                        <div class="elementosRoles">
+                            <div class="cardRoles fondoMago">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/magos/seccKagura.png" alt="Kagura">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Kagura</h1>
+                                    <p>Con su imponente ancla gigante, hábil para enganchar a sus enemigos y liderar con valentía en la batalla. Su resistencia y control son clave para proteger a su equipo.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoMago">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/magos/seccLylia.png" alt="Lylia">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Lylia</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoMago">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/magos/seccCiclop.png" alt="Ciclope">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Ciclope</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoMago">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/magos/seccEudora.png" alt="Eudora">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Eudora</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoMago">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/magos/seccAlice.png" alt="Alice">
+                                    
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Alice</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="cardRoles fondoMago">
+                                <div class="fotoRoles">
+                                    <img src="assets/img/seccionRoles/magos/seccHarith.png" alt="Harith">
+                                </div>
+                                <div class="textoRoles">
+                                    <h1>Harith</h1>
+                                    <p>Domina el campo de batalla con sus habilidades ágiles y su destreza en el combate cuerpo a cuerpo, Akai es un maestro en la iniciación y en proteger con su resistencia.</p>
+                                </div>
+                            </div>
+                            <div class="botonVerRol">
+                                <a href="#">Ver Rol</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+</main>
+<footer>
+        <div class="redes">
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-youtube fa-lg"></i>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-share fa-lg"></i>
+            </a>
+        </div>
+        <p>2024 Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
